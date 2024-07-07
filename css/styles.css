@@ -266,3 +266,10 @@ main section{
     display: block;
     border: none;
  }
+ /* other */
+ #nameedit{
+    color: #da6505;
+ }
+ #nameedit:hover{
+    color: #080502;
+ }
