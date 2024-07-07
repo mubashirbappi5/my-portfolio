@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* font-family: "Open Sans", sans-serif; */
+
+
+/* shareed */
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:"Open Sans", sans-serif ;
+    padding: 9px 16px;
+    border-radius: 5px;
+    border: none;
+
+}
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:"Open Sans", sans-serif ;
+    color: black;
+}
+.section-description{
+    font-size: 15px;
+    font-family:"Open Sans", sans-serif ;
+    color: #474747;
+}
+.comon-bg{
+    background-color: #dbb79d;
+}
+/* header */
+header{
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto 600px;
+    
+}
+/* nav style */
+nav{
+    display: flex;
+
+    justify-content:space-between;
+    
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: 100px;
+
+}
+
+nav ul li a{    
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+    
+}
+/* banner style */
+.banner{
+    display: flex;
+   
+    justify-content: space-between;
+    height: 600px;
+    background-image: url(../images/header_bg.png) ;
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+    background-position:bottom right;
+}
+.banner-content{
+    width: 400px;
+    margin-left: 100px;
+   margin-top: 100px;
+    
+}
+.subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #474747;
+}
+.banner-content .title{
+    font-weight: 800;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+.banner-content .dis{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #474747;
+
+}
+.banner-profile{
+    width: 400px;
+    height: 500px;
+    margin-top:100px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*  about style */
+.about{
+    border-radius: 10px;
+    padding: 100px 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+.about-items{
+    display: flex;
+    justify-content:space-around;
+}
+.item-ditl{
+    font-weight: 600;
+    font-family:"Open Sans", sans-serif;
+}
+.item-title{
+    color: #474747;
+
+}
